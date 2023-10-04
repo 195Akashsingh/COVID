@@ -3,9 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np 
 import streamlit as st
-import json
-import requests
-from streamlit_lottie import st_lottie
+
+
 
 
 df = pd.read_csv("data.csv", encoding='windows-1252')
