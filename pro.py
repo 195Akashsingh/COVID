@@ -191,18 +191,21 @@ for text, autotext in zip(texts, autotexts):
     autotext.set(color='white', fontweight='bold') 
 
 st.write(fig)
-#7=========================================================================
 
 
 
+#conclusion=========================================================================
 
 
+st.title('conclusion')
 
-
-
-
-
-
+st.write('''1.The visualization illustrates the diverse age distribution of customers in the dataset, with prominent peaks in the 26-35 age group, represented by Light Sea Green bars against a dark background.
+esents the gender distribution in the dataset, showcasing the diversity with 51.2% male and 48.8% female records.''')
+st.write('2.The visualization provides a comprehensive breakdown of sales across different occupations, highlighting gender disparities, with distinct representations for each occupation.')
+st.write('3.The visualization highlights the top-performing sales zones, emphasizing revenue generation disparities across different areas, with vibrant pink bars against a black background.')
+st.write('4.The visualization highlights the top-performing sales zones, emphasizing revenue generation disparities across different areas, with vibrant pink bars against a black background.')
+st.write('5.The visualization highlights the top-performing sales zones, emphasizing revenue generation disparities across different areas, with vibrant pink bars against a black background.')
+st.write('6.The pie chart visually represents the gender distribution in the dataset, showcasing the diversity with 51.2% male and 48.8% female records.')
 
 
 
